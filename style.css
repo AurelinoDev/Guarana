@@ -68,3 +68,37 @@
 .item.active .title{
     animation: toActive 0.4s ease-in-out;
 }
+
+@media screen and (min-width: 300px) and (max-width: 420px){
+    .item .title{
+        position: absolute;
+        top: 90%;
+        font-size: 90px;
+    }
+    .item .refri{
+        width: 500px;
+    }
+    .item .fruit{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 200%;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 1024px) {
+    .item .title{
+        font-size: 200px;
+    }
+    .item .refri{
+        width: 500px;
+    }
+    .item .fruit{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 150%;
+    }
+}
+  
