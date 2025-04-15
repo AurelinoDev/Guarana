@@ -28,7 +28,6 @@
     position: absolute;
     top: -5%;
     z-index: 1;
-    opacity: 80%;
 }
 .item .refri{
     z-index: 3;
