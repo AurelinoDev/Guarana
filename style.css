@@ -72,11 +72,11 @@
 @media screen and (min-width: 300px) and (max-width: 420px){
     .item .title{
         position: absolute;
-        top: 90%;
+        top: 85%;
         font-size: 90px;
     }
     .item .refri{
-        width: 500px;
+        width: 400px;
     }
     .item .fruit{
         position: absolute;
